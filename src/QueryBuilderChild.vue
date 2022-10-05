@@ -97,6 +97,7 @@ export default class QueryBuilderChild extends Vue {
       aria-label="Close"
       class="query-builder-child__delete-child"
       @click="$emit('delete-child')"
+      :tabindex="-1"
     >
       <span aria-hidden="true">×</span>
     </button>
